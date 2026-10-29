@@ -1,0 +1,31 @@
+collecting ... collected 18 items
+
+test_pet_boarding.py::test_within_included_days PASSED                   [  5%]
+test_pet_boarding.py::test_admission_ok PASSED                           [ 11%]
+test_pet_boarding.py::test_unknown_pet PASSED                            [ 16%]
+test_pet_boarding.py::test_negative_days PASSED                          [ 22%]
+test_pet_boarding.py::test_premium_cat_within_included PASSED            [ 27%]
+test_pet_boarding.py::test_premium_rabbit_no_bonus PASSED                [ 33%]
+test_pet_boarding.py::test_dog_short_extra PASSED                        [ 38%]
+test_pet_boarding.py::test_cat_short_extra PASSED                        [ 44%]
+test_pet_boarding.py::test_dog_long_extra PASSED                         [ 50%]
+test_pet_boarding.py::test_cat_long_extra PASSED                         [ 55%]
+test_pet_boarding.py::test_extra_exactly_ten PASSED                      [ 61%]
+test_pet_boarding.py::test_senior_enough_vaccines PASSED                 [ 66%]
+test_pet_boarding.py::test_senior_not_enough_vaccines PASSED             [ 72%]
+test_pet_boarding.py::test_too_young PASSED                              [ 77%]
+test_pet_boarding.py::test_adult_not_enough_vaccines PASSED              [ 83%]
+test_pet_boarding.py::test_long_stay_weekday PASSED                      [ 88%]
+test_pet_boarding.py::test_short_stay_weekend PASSED                     [ 94%]
+test_pet_boarding.py::test_short_stay_weekday PASSED                     [100%]
+
+================================ tests coverage ================================
+______________ coverage: platform darwin, python 3.13.12-final-0 _______________
+
+Name              Stmts   Miss Branch BrPart  Cover   Missing
+-------------------------------------------------------------
+pet_boarding.py      37      0     26      0   100%
+-------------------------------------------------------------
+TOTAL                37      0     26      0   100%
+Coverage HTML written to dir coverage_reports/html_after
+============================== 18 passed in 0.04s ==============================

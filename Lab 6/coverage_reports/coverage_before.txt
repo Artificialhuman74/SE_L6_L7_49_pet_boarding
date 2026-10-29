@@ -1,0 +1,15 @@
+collecting ... collected 2 items
+
+test_pet_boarding.py::test_within_included_days PASSED                   [ 50%]
+test_pet_boarding.py::test_admission_ok PASSED                           [100%]
+
+================================ tests coverage ================================
+______________ coverage: platform darwin, python 3.13.12-final-0 _______________
+
+Name              Stmts   Miss Branch BrPart  Cover   Missing
+-------------------------------------------------------------
+pet_boarding.py      37     23     26      6    32%   6, 8, 11, 15-23, 28, 30, 35-45
+-------------------------------------------------------------
+TOTAL                37     23     26      6    32%
+Coverage HTML written to dir coverage_reports/html_before
+============================== 2 passed in 0.03s ===============================
